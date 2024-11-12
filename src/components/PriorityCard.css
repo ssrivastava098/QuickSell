@@ -1,0 +1,45 @@
+.priority-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.priority-card-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.priority-icon {
+    font-size: 1.5em;
+}
+
+.priority-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.ticket-count {
+    color: #555;
+    margin-left: 10px;
+}
+
+.priority-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.add-button,
+.more-options {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #888;
+}

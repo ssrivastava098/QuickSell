@@ -1,0 +1,48 @@
+/* StatusCard.css */
+.status-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.status-card-content {
+    display: flex;
+    align-items: center;
+    min-width: 10px;
+    gap: 8px;
+}
+
+.status-icon {
+    font-size: 1.5em;
+    color: #f0c040; /* Customize based on status */
+}
+
+.status-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.ticket-count {
+    color: #555;
+    margin-left: 10px;
+}
+
+.status-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.add-button,
+.more-options {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #888;
+}

@@ -1,0 +1,75 @@
+/* UserCard.css */
+.user-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.user-card-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    position: relative;
+}
+
+.availability-indicator {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #f9f9f9; /* Border to give a separated look */
+}
+
+.availability-indicator.yellow {
+    background-color: yellow;
+}
+
+.availability-indicator.grey {
+    background-color: grey;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.ticket-count {
+    color: #555;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.add-button,
+.more-options {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #888;
+}
